@@ -4,7 +4,7 @@ from pyspark.sql import SparkSession
 from pyspark.sql import Row
 from pyspark.sql.types import StructType, StructField, StringType, DoubleType, IntegerType, FloatType
 
-from sample_data.albion_data_connector import AlbionDataFetcher
+from albion_sample_data.albion_data_connector import AlbionDataFetcher
 
 # print(json.dumps(data, indent=4))
 
