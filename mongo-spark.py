@@ -6,8 +6,6 @@ from pyspark.sql.types import StructType, StructField, StringType, DoubleType, I
 
 from albion_sample_data.albion_data_connector import AlbionDataFetcher
 
-# print(json.dumps(data, indent=4))
-
 # Initialize Spark Session with MongoDB configurations
 spark = SparkSession.builder \
     .appName("mongo-spark") \
